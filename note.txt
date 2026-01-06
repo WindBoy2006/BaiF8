@@ -1,0 +1,18 @@
+Buoi 20: 2026-6-1
+
+JS: javascript la 1 ngon ngu lap trinh
+- ra doi voi muc dich lam FE
+hien tai JS co the lam FE, BE, CICD, AI
+
+JS:
+-uu diemL trien khai nhanh, de code
+- nhuoc diem:
+    + khong tuong minh -> kho bao tri
+    + khi code sai -> khong biet ngay duoc
+    + ko ho tro lap trinh huong doi tuong (Lom com)
+
+TS (typescript) ra doi de giai quyet hau het nhuoc diem
+    -> co nhung net tuong dong vs Java
+    
+in gia tri ra man hinh terminal(console)
+-> console.log
