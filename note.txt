@@ -16,3 +16,12 @@ TS (typescript) ra doi de giai quyet hau het nhuoc diem
     
 in gia tri ra man hinh terminal(console)
 -> console.log
+
+*Bien - variable*
+    bien dung de luu gia tri nao do
+
+    const/let/var <ten bien> = <gia tri>
+
+    <ten bien> khong duoc dat trung nhau
+
+    
