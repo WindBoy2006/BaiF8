@@ -24,4 +24,58 @@ in gia tri ra man hinh terminal(console)
 
     <ten bien> khong duoc dat trung nhau
 
-    
+phan biet const/let/var
+
+let a = 1 -> declare "a" variable and assign value 1
+            -> khai bao bien a va gan gia tri 1 cho bien a
+a = 2 -> update value of "a"
+      -> cap nhat gia tri 2 cho bien a
+
+*data type*
+number
+    - int: 1, 2, 3
+    - float: 1.2, 3.14
+bool
+    is/are/have/has + N(danh tu)/adj(tinh tu)
+    exp:  
+        - isNumber = true/false
+
+--char:
+--    exp: "a", "b"    
+string
+    exp: "ok anh em"
+object
+    - array [matrix]
+        exp:
+            [1, 2, 3]
+            [
+                [1, 2, 3],
+                [3, 2, 1]
+            ]
+    - dictionary (key - value)
+        exp:
+            {
+                "hello": "xin chao",
+                "ok": "duoc"
+            }
+
+Date object
+Undefined
+Null
+
+*Ep kiet - Type casting*
+const a = 1000 
+convert 
+    1000 -> "1000" -> ok
+    "1000" -> 1000 -> ko | ok
+
+
+ number       string       bool       status 
+                                             
+  1000 ─────► "1000"                     o   
+  1000 ◄───── "1000"                    o x  
+               "true" ◄──── true         o    
+               "true" ────► true        o x   
+  ?   ◄──────────────────── true         ?   
+ 1000 ─────────────────────► ?           o    
+                                             
